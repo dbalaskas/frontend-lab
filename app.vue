@@ -4,7 +4,8 @@
 
 <template>
   <div class="text-primary">
-    Hello World
+    Hello World<Icon name="mdi:home" />
+
     <NuxtRouteAnnouncer />
     <NuxtWelcome />
   </div>

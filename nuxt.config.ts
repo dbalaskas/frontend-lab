@@ -2,12 +2,18 @@
 export default defineNuxtConfig({
   modules: [
     '@nuxt/eslint',
-    '@nuxtjs/tailwindcss'
+    '@nuxtjs/tailwindcss',
+    '@nuxt/icon'
   ],
   devtools: { enabled: true },
   compatibilityDate: '2024-04-03',
   eslint: {
     checker: true
+  },
+  icon: {
+    serverBundle: {
+      collections: ['uil', 'mdi']
+    }
   },
   tailwindcss: {
     cssPath: ['~assets/css/tailwind.css', { injectPosition: 'first' }],
