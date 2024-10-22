@@ -1,11 +1,18 @@
 {
-    "editor.quickSuggestions": {
-        "other": "on",
-        "comments": "off",
-        "strings": true
-    },
-    "editor.codeActionsOnSave": {
-      "source.fixAll.eslint": "explicit"
-    },
-    "eslint.validate": ["javascript", "typescript", "vue"]
+  "files.associations": {
+    "*.page-template": "vue",
+    "*.layout-template": "vue",
+    "*.vue": "vue",
+    "*.css": "tailwindcss",
+    "*.scss": "tailwindcss"
+  },
+  "editor.quickSuggestions": {
+      "other": "on",
+      "comments": "off",
+      "strings": true
+  },
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
+  "eslint.validate": ["javascript", "typescript", "vue"]
 }

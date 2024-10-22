@@ -3,7 +3,7 @@
 </script>
 
 <template>
-  <div>
+  <div class="text-primary">
     Hello World
     <NuxtRouteAnnouncer />
     <NuxtWelcome />
