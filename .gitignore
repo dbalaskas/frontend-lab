@@ -27,3 +27,6 @@ logs
 
 # Eslint
 .eslintcache
+
+# Personal
+.data
