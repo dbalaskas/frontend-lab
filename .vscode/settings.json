@@ -1,0 +1,11 @@
+{
+    "editor.quickSuggestions": {
+        "other": "on",
+        "comments": "off",
+        "strings": true
+    },
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": "explicit"
+    },
+    "eslint.validate": ["javascript", "typescript", "vue"]
+}
