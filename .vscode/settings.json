@@ -1,4 +1,12 @@
 {
+  "editor.tabSize": 2,
+  "editor.insertSpaces": true,
+  "files.eol": "\n",
+  "tailwindCSS.experimental.classRegex": [
+    "tw`(.*?)`",
+    "tw\\('(.*?)'\\)",
+    "tw\\(\\s*('(.*?)'|\"(.*?)\")\\s*\\)",
+  ],
   "files.associations": {
     "*.page-template": "vue",
     "*.layout-template": "vue",
@@ -11,8 +19,14 @@
       "comments": "off",
       "strings": true
   },
+  "files.autoSave": "onFocusChange",
+  "editor.formatOnSave": true,
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": "explicit"
   },
-  "eslint.validate": ["javascript", "typescript", "vue"]
+  "eslint.validate": [
+    "javascript",
+    "typescript",
+    "vue"
+  ]
 }
