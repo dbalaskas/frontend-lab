@@ -10,6 +10,7 @@ export default defineNuxtConfig({
   ],
   ssr: false,
   devtools: { enabled: true },
+  // css: ['~/assets/css/tailwind.css'],
   compatibilityDate: '2024-04-03',
   eslint: {
     checker: true
@@ -20,7 +21,7 @@ export default defineNuxtConfig({
     }
   },
   tailwindcss: {
-    cssPath: ['~assets/css/tailwind.css', { injectPosition: 'first' }],
+    cssPath: ['~/assets/css/tailwind.css', { injectPosition: 'first' }],
     configPath: 'tailwind.config',
     exposeConfig: {
       level: 2

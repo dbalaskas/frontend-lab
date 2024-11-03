@@ -1,12 +1,20 @@
 <script setup lang="ts">
-// console.log('hii');
+definePageMeta({
+  name: 'change-password',
+  layout: 'dashboard-layout'
+});
+
+useHead({
+  title: 'Change Password'
+});
 </script>
 
 <template>
-  <div class="text-primary">
-    Hello World<Icon name="mdi:home" />
-
-    <NuxtRouteAnnouncer />
-    <NuxtWelcome />
-  </div>
+  <nuxt-layout>
+    <view-account-settings-change-password-view />
+  </nuxt-layout>
 </template>
+
+<style lang="css" scoped>
+
+</style>

@@ -1,4 +1,1 @@
-@layer components {
-  /* This is the components layer */
-  /* It's for reset and components styles */
-}
+@import "./badge.css";

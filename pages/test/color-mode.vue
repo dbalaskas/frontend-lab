@@ -1,17 +1,17 @@
-<script setup lang="ts">
+<script lang="ts" setup>
 definePageMeta({
-  name: 'sign-in',
-  layout: 'auth-layout'
+  name: 'color-mode',
+  layout: 'dashboard-layout'
 });
 
 useHead({
-  title: 'Sign in'
+  title: 'Test Color Mode'
 });
 </script>
 
 <template>
   <nuxt-layout>
-    <view-auth-sign-in-view />
+    <view-test-color-mode-view />
   </nuxt-layout>
 </template>
 

@@ -3,9 +3,7 @@
 </script>
 
 <template>
-  <div>
-    <slot />
-  </div>
+  haha
 </template>
 
 <style lang="css" scoped>

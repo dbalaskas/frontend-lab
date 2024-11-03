@@ -1,12 +1,20 @@
 <script setup lang="ts">
-// console.log('hii');
+definePageMeta({
+  name: 'account-settings',
+  layout: 'dashboard-layout'
+});
+
+useHead({
+  title: 'Account Settings'
+});
 </script>
 
 <template>
-  <div class="text-primary">
-    Hello World<Icon name="mdi:home" />
-
-    <NuxtRouteAnnouncer />
-    <NuxtWelcome />
-  </div>
+  <nuxt-layout>
+    <view-account-settings-view />
+  </nuxt-layout>
 </template>
+
+<style lang="css" scoped>
+
+</style>

@@ -3,6 +3,7 @@ import typography from '@tailwindcss/typography';
 
 export default <Partial<Config>>{
   content: [],
+  // darkMode: 'class',
   theme: {
     screens: { // default
       sm: '640px',

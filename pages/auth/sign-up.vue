@@ -1,17 +1,17 @@
 <script setup lang="ts">
 definePageMeta({
-  name: 'forgot-password',
+  name: 'sign-up',
   layout: 'auth-layout'
 });
 
 useHead({
-  title: 'Forgot Password'
+  title: 'Sign up'
 });
 </script>
 
 <template>
   <nuxt-layout>
-    <view-auth-forgot-password-view />
+    <view-auth-sign-up-view />
   </nuxt-layout>
 </template>
 
