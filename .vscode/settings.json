@@ -28,5 +28,21 @@
     "javascript",
     "typescript",
     "vue"
-  ]
+  ],
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "nuxtr.vueFiles.template.defaultLanguage": "html",
+  "nuxtr.vueFiles.firstTag": "script",
+  "nuxtr.vueFiles.script.type": "setup",
+  "nuxtr.vueFiles.script.defaultLanguage": "ts",
+  "nuxtr.vueFiles.style.addStyleTag": true,
+  "nuxtr.vueFiles.style.alwaysScoped": true,
+  "nuxtr.vueFiles.style.defaultLanguage": "css",
+  "nuxtr.piniaFiles.defaultTemplate": "options",
+  "nuxtr.openItemsAfterCreation": true,
+  "nuxtr.defaultPackageManager": "Yarn",
+  "nuxtr.intellisense.nuxtrc": true,
+  "nuxtr.intellisense.vueFiles": true,
+  "nuxtr.intellisense.nuxtignore": true,
+  "nuxtr.snippets.nuxt": true,
+  "nuxtr.snippets.nitro": true
 }
