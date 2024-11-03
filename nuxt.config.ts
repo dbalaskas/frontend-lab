@@ -5,7 +5,8 @@ export default defineNuxtConfig({
     '@nuxt/eslint',
     '@nuxtjs/tailwindcss',
     '@nuxt/icon',
-    '@nuxtjs/color-mode'
+    '@nuxtjs/color-mode',
+    '@vee-validate/nuxt'
   ],
   ssr: false,
   devtools: { enabled: true },
@@ -26,5 +27,15 @@ export default defineNuxtConfig({
     },
     config: {},
     viewer: true
+  },
+  veeValidate: {
+    autoImports: true,
+    typedSchemaPackage: 'yup',
+    componentNames: {
+      Form: 'VeeForm',
+      Field: 'VeeField',
+      FieldArray: 'VeeFieldArray',
+      ErrorMessage: 'VeeErrorMessage'
+    }
   }
 });
