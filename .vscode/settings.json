@@ -39,10 +39,5 @@
   "nuxtr.vueFiles.style.defaultLanguage": "css",
   "nuxtr.piniaFiles.defaultTemplate": "options",
   "nuxtr.openItemsAfterCreation": true,
-  "nuxtr.defaultPackageManager": "Yarn",
-  "nuxtr.intellisense.nuxtrc": true,
-  "nuxtr.intellisense.vueFiles": true,
-  "nuxtr.intellisense.nuxtignore": true,
-  "nuxtr.snippets.nuxt": true,
-  "nuxtr.snippets.nitro": true
+  "nuxtr.defaultPackageManager": "Yarn"
 }

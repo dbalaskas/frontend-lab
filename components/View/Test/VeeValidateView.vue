@@ -4,7 +4,8 @@
 
 <template>
   <div>
-    Hello World
+    Hello World!
+    <form-test-vee-validate />
   </div>
 </template>
 
