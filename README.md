@@ -1,12 +1,73 @@
-# Nuxt Minimal Starter
+# Frontend Platform based on Nuxt
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+## Requirements
+
+Make sure that the following packages are installed
+
+#### Git
+
+Check if installed:
+
+```bash
+git -v
+
+# Minimum version: 2.43.0
+```
+
+Install on **Linux**:
+
+```bash
+ sudo apt install git
+```
+
+#### npm
+
+Check if installed with:
+
+```bash
+npm -v
+
+# Minimum version: 9.2.0
+
+node -v
+
+# Minimum version: 18.19.1
+```
+
+Install on **Linux**:
+
+```bash
+sudo apt install npm
+```
+
+#### yarn - Recommended
+
+Check if installed with:
+
+```bash
+yarn -v
+
+# Minimum version: 1.22.22
+```
+
+Install on **Linux**:
+
+```bash
+sudo npm install --global yarn
+```
 
 ## Setup
 
 Make sure to install dependencies:
 
 ```bash
+
+# Install nuxi
+npx nuxi update
+```
+
+```bash
+
 # npm
 npm install
 
