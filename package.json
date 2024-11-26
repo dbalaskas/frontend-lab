@@ -24,8 +24,8 @@
   },
   "packageManager": "yarn@1.22.22+sha1.ac34549e6aa8e7ead463a7407e1c7390f61a6610",
   "devDependencies": {
-    "@nuxt/eslint": "0.6.1",
     "@iconify/json": "2.2.267",
+    "@nuxt/eslint": "0.6.1",
     "@nuxtjs/tailwindcss": "^6.12.2",
     "@tailwindcss/typography": "^0.5.15",
     "@types/dompurify": "^3.0.5",

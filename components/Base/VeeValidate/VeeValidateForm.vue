@@ -9,8 +9,8 @@ interface Props {
 }
 
 interface Emits {
-  (event: 'submit', payload: any): void;
-  (event: 'reset'): void;
+  (_event: 'submit', _payload: any): void;
+  (_event: 'reset'): void;
 }
 
 const emit = defineEmits<Emits>();

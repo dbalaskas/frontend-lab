@@ -60,7 +60,8 @@ const showInfoTooltip = ref(false);
         />
         <div
           v-show="showInfoTooltip"
-          class="absolute z-10 transform left-full ml-2 w-max max-w-96 px-2 py-1 text-sm text-black bg-gray-300 rounded-md shadow-lg"
+          class="absolute z-10 transform left-full ml-2 w-max max-w-96 px-2 py-1
+            text-sm text-black bg-gray-300 rounded-md shadow-lg"
         >
           {{ info }}
         </div>

@@ -39,7 +39,9 @@ body {
 }
 
 .badge {
-  @apply inline-block bg-gray-200 dark:bg-gray-950 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 dark:text-gray-400;
+  @apply inline-block rounded-full bg-gray-200 dark:bg-gray-950
+  px-3 py-1 text-sm font-semibold text-gray-700 dark:text-gray-400;
+
   &:hover {
     @apply bg-gray-300;
   }
