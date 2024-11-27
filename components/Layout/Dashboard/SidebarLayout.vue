@@ -1,41 +1,18 @@
 <script lang="ts" setup>
 
+const sidebarMenuLinks = ['Home', 'About', 'Services', 'Contact'];
 </script>
 
 <template>
-  <aside class="bg-gray-200 p-4 xl:w-80 lg:w-40 flex-shrink-0">
+  <aside class="sidebar">
     <nav>
       <ul>
-        <li class="mb-2">
-          <a
-            href="#"
-            class="text-blue-600 hover:underline"
-          >
-            Home
-          </a>
-        </li>
-        <li class="mb-2">
-          <a
-            href="#"
-            class="text-blue-600 hover:underline"
-          >
-            About
-          </a>
-        </li>
-        <li class="mb-2">
-          <a
-            href="#"
-            class="text-blue-600 hover:underline"
-          >
-            Services
-          </a>
-        </li>
-        <li class="mb-2">
-          <a
-            href="#"
-            class="text-blue-600 hover:underline"
-          >
-            Contact
+        <li
+          v-for="link in sidebarMenuLinks"
+          :key="link"
+        >
+          <a href="#">
+            {{link}}
           </a>
         </li>
       </ul>

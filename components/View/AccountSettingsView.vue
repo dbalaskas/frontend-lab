@@ -3,7 +3,9 @@
 </script>
 
 <template>
-  haha
+  <div>
+    Account Settings View
+  </div>
 </template>
 
 <style lang="css" scoped>

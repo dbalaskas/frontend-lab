@@ -1,0 +1,5 @@
+@layer components {
+  .theme-selector {
+    @apply rounded border w-24 h-8 dark:bg-gray-900 dark:text-white dark:border-gray-700 m-4 mb-2;
+  }
+}

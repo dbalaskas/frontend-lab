@@ -1,0 +1,9 @@
+@layer components {
+  .header {
+    @apply flex items-center justify-between bg-blue-600 dark:bg-blue-900 p-4 flex-shrink-0;
+
+    h1 {
+      @apply text-lg font-semibold text-black dark:text-white;
+    }
+  }
+}

@@ -1,0 +1,5 @@
+@layer base {
+  .dark-mode body {
+    @apply bg-red-500 text-red-800;
+  }
+}
